@@ -1,0 +1,8 @@
+
+
+while IFS=, read -r pos song artist streams url; 
+do
+	echo  "$artist";
+done < spotifyChart.csv > artistList.txt
+sort artistList.txt >> artistSort.txt
+
