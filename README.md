@@ -1,19 +1,10 @@
 # CISC-3140-Lab-5
-*What to submit:* 
+For this assignment, I used SCP command to take a CSV File from Spotify Charts, and parse it into my remote terminal.
+Once that was done, I used a while loop and IFS=',' to extract the artist names column and printed it to the terminal, and a text file
+Then I used the sort command on the text file to give an alphabetical list of artist names. 
+For task 2, I repeated the steps I did in task 1, but this time i did it within a shell script, so that it could be called by one command.
+For the 3rd task, I used curl command to download images from the internet. 
+I checked if image magick was available on terminal and it was, so I atempted to use the composite command to mix the two images together.
+Unfortunately, I dont think I was able to get the magick command to work this time. 
+It took me several log sessions but I managed to get the tasks eventually. 
 
-- Please submit a record of terminal activities.
-- Advice: You should describe *what you were trying to do* along with *what you did.*
-    - For example, could be a readme file that describes what your file contents contains with files that show what you did.
-    - Or it could be comments (if it makes sense to you on how to do this with shell files you can otherwise disregard this comment)
-
-*How to package:*
-
-- Publish your log files to a remote repository (GitHub/Github/whatever) so that I can access it
-    - This is typically a log file, as in session.log.
-    - Pick filenames that make sense to you.
-    - Avoid submitting RTF or word document files for this work.
-    - I can infer a lot from seeing the order of commands you've inputted into the terminal, so don't worry about logs being brief.
-- How you store files is up to you, as long as I can easily find the relevant files for this assignment.
-    - You can save in 1,2,3,10,n files. Whatever breakdown makes sense to you.
-- Should you include the resulting output from task 3?
-    - It depends on what you're trying to convey to your reader. Are you trying to show that your "program" works?
