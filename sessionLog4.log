@@ -1,0 +1,1026 @@
+Script started on Sun 27 Sep 2020 12:16:06 AM EDT
+]0;efarkas@sol28:~[?1034h[efarkas@sol28 ~]$ cd #1[K[KCISC-3140/TEst[K[K[Kest
+]0;efarkas@sol28:~/CISC-3140/Test[efarkas@sol28 Test]$ ls
+artistNames.txt  helloPerson.sh  hello.sh  printNames.sh  print.sh  spotifyChart.csv  [0m[38;5;9mspotify.zip[0m
+]0;efarkas@sol28:~/CISC-3140/Test[efarkas@sol28 Test]$ while IFS=, reas -r [K[K[K[K[Kd -r pos [K, [K[K song artist strw[Keasm[K[Kms url; do echo $[K"$artist"; done< spotifyChart.csv
+
+Artist
+Tones and I
+Roddy Ricch
+KAROL G
+Eminem
+Justin Bieber
+Future
+The Weeknd
+Arizona Zervas
+Trevor Daniel
+Dua Lipa
+Maroon 5
+Post Malone
+Billie Eilish
+Mac Miller
+The Black Eyed Peas
+Halsey
+Lewis Capaldi
+Shawn Mendes
+BTS
+Selena Gomez
+Selena Gomez
+Eminem
+Billie Eilish
+Harry Styles
+Camila Cabello
+Eminem
+Jonas Brothers
+Dimelo Flow
+blackbear
+Eminem
+Bad Bunny
+Eminem
+DaBaby
+Regard
+Lewis Capaldi
+YNW Melly
+Don Toliver
+Mac Miller
+Harry Styles
+Rauw Alejandro
+Dalex
+MEDUZA
+Doja Cat
+Eminem
+Anuel AA
+BROCKHAMPTON
+Travis Scott
+Tyga
+Mac Miller
+Ed Sheeran
+Post Malone
+Eminem
+Juice WRLD
+Mustard
+Shakira
+J Balvin
+Eminem
+Lil Uzi Vert
+SAINt JHN
+Ed Sheeran
+Juice WRLD
+Mac Miller
+Nicky Jam
+Khalid
+Ed Sheeran
+Nicky Jam
+000 Hours (with Justin Bieber)"
+JP Saxe
+Mac Miller
+Eminem
+Mac Miller
+Eminem
+Eminem
+Eminem
+Y2K
+Juju
+The Weeknd
+J Balvin
+SHAED
+Halsey
+Jhay Cortez
+Roddy Ricch
+ Black Thought
+Bad Bunny
+Tainy
+Travis Scott
+Ariana Grande
+Billie Eilish
+DaBaby
+Eminem
+Mac Miller
+Billie Eilish
+Sam Smith
+Eminem
+Post Malone
+Lady Gaga
+DaBaby
+Mac Miller
+J Balvin
+Eminem
+Daddy Yankee
+Eminem
+Ant Saunders
+Lil Nas X
+Stormzy
+Lil Tecca
+Ali Gatie
+Lauv
+Lunay
+Noah Cyrus
+Marshmello
+Halsey
+ Royce Da 5'9"" & Joell Ortiz)"
+Dalex
+Halsey
+ Pt. II"
+Jonas Brothers
+Mac Miller
+Post Malone
+Rich Music LTD
+Harry Styles
+Lewis Capaldi
+Lil Baby
+Imagine Dragons
+Reik
+Lil Baby
+Juice WRLD
+Red Velvet
+Henrique & Juliano
+Arizona Zervas
+Drake
+Matthew Wilder
+Sech
+Post Malone
+Tones and I
+JACKBOYS
+blackbear
+Queen
+Mac Miller
+Surfaces
+Lizzo
+Ed Sheeran
+Camilo
+MEDUZA
+ Tu x Mi"
+Ellie Goulding
+Selena Gomez
+Mac Miller
+Harry Styles
+Rich Music LTD
+Lunay
+Travis Scott
+Sam Smith
+Ava Max
+Ufo361
+XXXTENTACION
+Mac Miller
+Arcangel
+Kina
+Chris Brown
+James Arthur
+Lizzo
+Kina
+benny blanco
+BTS
+Kygo
+Gambi
+Maes
+ next"
+Maroon 5
+Ed Sheeran
+Billie Eilish
+Billie Eilish
+DJ Snake
+Jonas Brothers
+Camila Cabello
+XXXTENTACION
+Young Thug
+Thiaguinho MT
+Riton
+DaBaby
+Piso 21
+Conan Gray
+ROSALÍA
+Olivia Rodrigo
+Travis Scott
+YNW Melly
+Dominic Fike
+Post Malone
+Shawn Mendes
+Daddy Yankee
+Panic! At The Disco
+ Dalex
+Sech
+J Balvin
+J. Cole
+Lauv
+XXXTENTACION
+Dean Lewis
+]0;efarkas@sol28:~/CISC-3140/Test[efarkas@sol28 Test]$ while IFS=, read -r post,[K[K[Ks,[K[K a[K[Ks ar[K[Ksong artist streams url; do $[K"[Kecho "$artit[Kst" [K; done <spotifyChart.csv | >artistNames.txt
+]0;efarkas@sol28:~/CISC-3140/Test[efarkas@sol28 Test]$ ls
+artistNames.txt  helloPerson.sh  hello.sh  printNames.sh  print.sh  spotifyChart.csv  [0m[38;5;9mspotify.zip[0m
+]0;efarkas@sol28:~/CISC-3140/Test[efarkas@sol28 Test]$ echo [K[K[K[K[Knano artistNames.txt
+[?1049h[1;63r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                                                     File: artistNames.txt                                                                                                                  [61;95H[ Read 0 lines ][62d^G(B[m Get Help[62;35H(B[0;7m^O(B[m WriteOut[62;69H(B[0;7m^R(B[m Read File[62;103H(B[0;7m^Y(B[m Prev Page[62;137H(B[0;7m^K(B[m Cut Text[62;171H(B[0;7m^C(B[m Cur Pos[63d(B[0;7m^X(B[m Exit[63;35H(B[0;7m^J(B[m Justify[63;69H(B[0;7m^W(B[m Where Is[63;103H(B[0;7m^V(B[m Next Page[63;137H(B[0;7m^U(B[m UnCut Text[63;171H(B[0;7m^T(B[m To Spell[3d[61d[K[3d[1;195H(B[0;7mModified[3d(B[mdf [K[61d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                                                                                [62;1H Y(B[m Yes[K[63d(B[0;7m N(B[m No  [63;17H(B[0;7m^C(B[m Cancel[K[61;62H[62d[J[63;204H[63;1H[?1049l[?1l>]0;efarkas@sol28:~/CISC-3140/Test[efarkas@sol28 Test]$ ls[K[Kl[Knano artistNames.txt
+[?1049h[1;63r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                                                     File: artistNames.txt                                                                                                                  [61;95H[ Read 0 lines ][62d^G(B[m Get Help[62;35H(B[0;7m^O(B[m WriteOut[62;69H(B[0;7m^R(B[m Read File[62;103H(B[0;7m^Y(B[m Prev Page[62;137H(B[0;7m^K(B[m Cut Text[62;171H(B[0;7m^C(B[m Cur Pos[63d(B[0;7m^X(B[m Exit[63;35H(B[0;7m^J(B[m Justify[63;69H(B[0;7m^W(B[m Where Is[63;103H(B[0;7m^V(B[m Next Page[63;137H(B[0;7m^U(B[m UnCut Text[63;171H(B[0;7m^T(B[m To Spell[3d[61d[K[3d[1;195H(B[0;7mModified[3d(B[mvsdvs    [Kr[K[61d(B[0;7mFile to insert [from ./] :                                                                                                                                                                                  [62;35H(B[m           [62;70H(B[0;7mT(B[m To Files [62;103H            [62;137H(B[0;7mM-F(B[m New Buffer[K[63;2H(B[0;7mC(B[m Cancel[63;35H          [63;70H(B[0;7mX(B[m Execute Command[K[61;28H[61;95H[1K (B[0;7m[ Cancelled ](B[m[K[62;35H(B[0;7m^O(B[m WriteOut[62;70H(B[0;7mR(B[m Read File[62;103H(B[0;7m^Y(B[m Prev Page[62;137H(B[0;7m^K(B[m Cut Text   [62;171H(B[0;7m^C(B[m Cur Pos[63;2H(B[0;7mX(B[m Exit  [63;35H(B[0;7m^J(B[m Justify[63;70H(B[0;7mW(B[m Where Is       [63;103H(B[0;7m^V(B[m Next Page[63;137H(B[0;7m^U(B[m UnCut Text[63;171H(B[0;7m^T(B[m To Spell[3d[61d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                                                                                [62;1H Y(B[m Yes[K[63d(B[0;7m N(B[m No  [63;17H(B[0;7m^C(B[m Cancel[K[61;62H(B[0;7mFile Name to Write: artistNames.txt                         [62d^G(B[m Get Help[62;52H(B[0;7mM-D(B[m DOS Format[62;103H(B[0;7mM-A(B[m Append[62;154H(B[0;7mM-B(B[m Backup File[63d(B[0;7m^C(B[m Cancel	         [63;52H(B[0;7mM-M(B[m Mac Format[63;103H(B[0;7mM-P(B[m Prepend[61;36H[61;95H[1K (B[0;7m[ Cancelled ](B[m[K[62;35H(B[0;7m^O(B[m WriteOut	   [17X[62;69H(B[0;7m^R(B[m Read File[62;103H(B[0;7m^Y(B[m Prev Page[62;137H(B[0;7m^K(B[m Cut Text	 [17X[62;171H(B[0;7m^C(B[m Cur Pos[63;2H(B[0;7mX(B[m Exit  [63;35H(B[0;7m^J(B[m Justify	   [17X[63;69H(B[0;7m^W(B[m Where Is[63;103H(B[0;7m^V(B[m Next Page[63;137H(B[0;7m^U(B[m UnCut Text[63;171H(B[0;7m^T(B[m To Spell[3d[61d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                                                                                [62;1H Y(B[m Yes[K[63d(B[0;7m N(B[m No  [63;17H(B[0;7m^C(B[m Cancel[K[61;62H[62d[J[63;204H[63;1H[?1049l[?1l>]0;efarkas@sol28:~/CISC-3140/Test[efarkas@sol28 Test]$ cas[Kt [K[K [Kt artistNames.txt
+]0;efarkas@sol28:~/CISC-3140/Test[efarkas@sol28 Test]$ while IFS=, read -r pos song artist streams url; do echo "$artist"; done <spotifyChart.csv
+
+Artist
+Tones and I
+Roddy Ricch
+KAROL G
+Eminem
+Justin Bieber
+Future
+The Weeknd
+Arizona Zervas
+Trevor Daniel
+Dua Lipa
+Maroon 5
+Post Malone
+Billie Eilish
+Mac Miller
+The Black Eyed Peas
+Halsey
+Lewis Capaldi
+Shawn Mendes
+BTS
+Selena Gomez
+Selena Gomez
+Eminem
+Billie Eilish
+Harry Styles
+Camila Cabello
+Eminem
+Jonas Brothers
+Dimelo Flow
+blackbear
+Eminem
+Bad Bunny
+Eminem
+DaBaby
+Regard
+Lewis Capaldi
+YNW Melly
+Don Toliver
+Mac Miller
+Harry Styles
+Rauw Alejandro
+Dalex
+MEDUZA
+Doja Cat
+Eminem
+Anuel AA
+BROCKHAMPTON
+Travis Scott
+Tyga
+Mac Miller
+Ed Sheeran
+Post Malone
+Eminem
+Juice WRLD
+Mustard
+Shakira
+J Balvin
+Eminem
+Lil Uzi Vert
+SAINt JHN
+Ed Sheeran
+Juice WRLD
+Mac Miller
+Nicky Jam
+Khalid
+Ed Sheeran
+Nicky Jam
+000 Hours (with Justin Bieber)"
+JP Saxe
+Mac Miller
+Eminem
+Mac Miller
+Eminem
+Eminem
+Eminem
+Y2K
+Juju
+The Weeknd
+J Balvin
+SHAED
+Halsey
+Jhay Cortez
+Roddy Ricch
+ Black Thought
+Bad Bunny
+Tainy
+Travis Scott
+Ariana Grande
+Billie Eilish
+DaBaby
+Eminem
+Mac Miller
+Billie Eilish
+Sam Smith
+Eminem
+Post Malone
+Lady Gaga
+DaBaby
+Mac Miller
+J Balvin
+Eminem
+Daddy Yankee
+Eminem
+Ant Saunders
+Lil Nas X
+Stormzy
+Lil Tecca
+Ali Gatie
+Lauv
+Lunay
+Noah Cyrus
+Marshmello
+Halsey
+ Royce Da 5'9"" & Joell Ortiz)"
+Dalex
+Halsey
+ Pt. II"
+Jonas Brothers
+Mac Miller
+Post Malone
+Rich Music LTD
+Harry Styles
+Lewis Capaldi
+Lil Baby
+Imagine Dragons
+Reik
+Lil Baby
+Juice WRLD
+Red Velvet
+Henrique & Juliano
+Arizona Zervas
+Drake
+Matthew Wilder
+Sech
+Post Malone
+Tones and I
+JACKBOYS
+blackbear
+Queen
+Mac Miller
+Surfaces
+Lizzo
+Ed Sheeran
+Camilo
+MEDUZA
+ Tu x Mi"
+Ellie Goulding
+Selena Gomez
+Mac Miller
+Harry Styles
+Rich Music LTD
+Lunay
+Travis Scott
+Sam Smith
+Ava Max
+Ufo361
+XXXTENTACION
+Mac Miller
+Arcangel
+Kina
+Chris Brown
+James Arthur
+Lizzo
+Kina
+benny blanco
+BTS
+Kygo
+Gambi
+Maes
+ next"
+Maroon 5
+Ed Sheeran
+Billie Eilish
+Billie Eilish
+DJ Snake
+Jonas Brothers
+Camila Cabello
+XXXTENTACION
+Young Thug
+Thiaguinho MT
+Riton
+DaBaby
+Piso 21
+Conan Gray
+ROSALÍA
+Olivia Rodrigo
+Travis Scott
+YNW Melly
+Dominic Fike
+Post Malone
+Shawn Mendes
+Daddy Yankee
+Panic! At The Disco
+ Dalex
+Sech
+J Balvin
+J. Cole
+Lauv
+XXXTENTACION
+Dean Lewis
+]0;efarkas@sol28:~/CISC-3140/Test[efarkas@sol28 Test]$ while IFS=, read -r pos song artist streams url; do echo "$artist"; done <spotifyChart.csv >>artistNames.txt
+]0;efarkas@sol28:~/CISC-3140/Test[efarkas@sol28 Test]$ cat artistNames.txt
+
+Artist
+Tones and I
+Roddy Ricch
+KAROL G
+Eminem
+Justin Bieber
+Future
+The Weeknd
+Arizona Zervas
+Trevor Daniel
+Dua Lipa
+Maroon 5
+Post Malone
+Billie Eilish
+Mac Miller
+The Black Eyed Peas
+Halsey
+Lewis Capaldi
+Shawn Mendes
+BTS
+Selena Gomez
+Selena Gomez
+Eminem
+Billie Eilish
+Harry Styles
+Camila Cabello
+Eminem
+Jonas Brothers
+Dimelo Flow
+blackbear
+Eminem
+Bad Bunny
+Eminem
+DaBaby
+Regard
+Lewis Capaldi
+YNW Melly
+Don Toliver
+Mac Miller
+Harry Styles
+Rauw Alejandro
+Dalex
+MEDUZA
+Doja Cat
+Eminem
+Anuel AA
+BROCKHAMPTON
+Travis Scott
+Tyga
+Mac Miller
+Ed Sheeran
+Post Malone
+Eminem
+Juice WRLD
+Mustard
+Shakira
+J Balvin
+Eminem
+Lil Uzi Vert
+SAINt JHN
+Ed Sheeran
+Juice WRLD
+Mac Miller
+Nicky Jam
+Khalid
+Ed Sheeran
+Nicky Jam
+000 Hours (with Justin Bieber)"
+JP Saxe
+Mac Miller
+Eminem
+Mac Miller
+Eminem
+Eminem
+Eminem
+Y2K
+Juju
+The Weeknd
+J Balvin
+SHAED
+Halsey
+Jhay Cortez
+Roddy Ricch
+ Black Thought
+Bad Bunny
+Tainy
+Travis Scott
+Ariana Grande
+Billie Eilish
+DaBaby
+Eminem
+Mac Miller
+Billie Eilish
+Sam Smith
+Eminem
+Post Malone
+Lady Gaga
+DaBaby
+Mac Miller
+J Balvin
+Eminem
+Daddy Yankee
+Eminem
+Ant Saunders
+Lil Nas X
+Stormzy
+Lil Tecca
+Ali Gatie
+Lauv
+Lunay
+Noah Cyrus
+Marshmello
+Halsey
+ Royce Da 5'9"" & Joell Ortiz)"
+Dalex
+Halsey
+ Pt. II"
+Jonas Brothers
+Mac Miller
+Post Malone
+Rich Music LTD
+Harry Styles
+Lewis Capaldi
+Lil Baby
+Imagine Dragons
+Reik
+Lil Baby
+Juice WRLD
+Red Velvet
+Henrique & Juliano
+Arizona Zervas
+Drake
+Matthew Wilder
+Sech
+Post Malone
+Tones and I
+JACKBOYS
+blackbear
+Queen
+Mac Miller
+Surfaces
+Lizzo
+Ed Sheeran
+Camilo
+MEDUZA
+ Tu x Mi"
+Ellie Goulding
+Selena Gomez
+Mac Miller
+Harry Styles
+Rich Music LTD
+Lunay
+Travis Scott
+Sam Smith
+Ava Max
+Ufo361
+XXXTENTACION
+Mac Miller
+Arcangel
+Kina
+Chris Brown
+James Arthur
+Lizzo
+Kina
+benny blanco
+BTS
+Kygo
+Gambi
+Maes
+ next"
+Maroon 5
+Ed Sheeran
+Billie Eilish
+Billie Eilish
+DJ Snake
+Jonas Brothers
+Camila Cabello
+XXXTENTACION
+Young Thug
+Thiaguinho MT
+Riton
+DaBaby
+Piso 21
+Conan Gray
+ROSALÍA
+Olivia Rodrigo
+Travis Scott
+YNW Melly
+Dominic Fike
+Post Malone
+Shawn Mendes
+Daddy Yankee
+Panic! At The Disco
+ Dalex
+Sech
+J Balvin
+J. Cole
+Lauv
+XXXTENTACION
+Dean Lewis
+]0;efarkas@sol28:~/CISC-3140/Test[efarkas@sol28 Test]$ while IFS= read -4 [K[Kr artist[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksort artis[K[K[Kr[K[KrtistNames.txt
+
+000 Hours (with Justin Bieber)"
+Ali Gatie
+Ant Saunders
+Anuel AA
+Arcangel
+Ariana Grande
+Arizona Zervas
+Arizona Zervas
+Artist
+Ava Max
+Bad Bunny
+Bad Bunny
+benny blanco
+Billie Eilish
+Billie Eilish
+Billie Eilish
+Billie Eilish
+Billie Eilish
+Billie Eilish
+blackbear
+blackbear
+ Black Thought
+BROCKHAMPTON
+BTS
+BTS
+Camila Cabello
+Camila Cabello
+Camilo
+Chris Brown
+Conan Gray
+DaBaby
+DaBaby
+DaBaby
+DaBaby
+Daddy Yankee
+Daddy Yankee
+Dalex
+Dalex
+ Dalex
+Dean Lewis
+Dimelo Flow
+DJ Snake
+Doja Cat
+Dominic Fike
+Don Toliver
+Drake
+Dua Lipa
+Ed Sheeran
+Ed Sheeran
+Ed Sheeran
+Ed Sheeran
+Ed Sheeran
+Ellie Goulding
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Future
+Gambi
+Halsey
+Halsey
+Halsey
+Halsey
+Harry Styles
+Harry Styles
+Harry Styles
+Harry Styles
+Henrique & Juliano
+Imagine Dragons
+JACKBOYS
+James Arthur
+J Balvin
+J Balvin
+J Balvin
+J Balvin
+J. Cole
+Jhay Cortez
+Jonas Brothers
+Jonas Brothers
+Jonas Brothers
+JP Saxe
+Juice WRLD
+Juice WRLD
+Juice WRLD
+Juju
+Justin Bieber
+KAROL G
+Khalid
+Kina
+Kina
+Kygo
+Lady Gaga
+Lauv
+Lauv
+Lewis Capaldi
+Lewis Capaldi
+Lewis Capaldi
+Lil Baby
+Lil Baby
+Lil Nas X
+Lil Tecca
+Lil Uzi Vert
+Lizzo
+Lizzo
+Lunay
+Lunay
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Maes
+Maroon 5
+Maroon 5
+Marshmello
+Matthew Wilder
+MEDUZA
+MEDUZA
+Mustard
+ next"
+Nicky Jam
+Nicky Jam
+Noah Cyrus
+Olivia Rodrigo
+Panic! At The Disco
+Piso 21
+Post Malone
+Post Malone
+Post Malone
+Post Malone
+Post Malone
+Post Malone
+ Pt. II"
+Queen
+Rauw Alejandro
+Red Velvet
+Regard
+Reik
+Rich Music LTD
+Rich Music LTD
+Riton
+Roddy Ricch
+Roddy Ricch
+ROSALÍA
+ Royce Da 5'9"" & Joell Ortiz)"
+SAINt JHN
+Sam Smith
+Sam Smith
+Sech
+Sech
+Selena Gomez
+Selena Gomez
+Selena Gomez
+SHAED
+Shakira
+Shawn Mendes
+Shawn Mendes
+Stormzy
+Surfaces
+Tainy
+The Black Eyed Peas
+The Weeknd
+The Weeknd
+Thiaguinho MT
+Tones and I
+Tones and I
+Travis Scott
+Travis Scott
+Travis Scott
+Travis Scott
+Trevor Daniel
+ Tu x Mi"
+Tyga
+Ufo361
+XXXTENTACION
+XXXTENTACION
+XXXTENTACION
+Y2K
+YNW Melly
+YNW Melly
+Young Thug
+]0;efarkas@sol28:~/CISC-3140/Test[efarkas@sol28 Test]$ sort artistNames.txt.[K >>[K S[KartistNamesSorted.txt
+]0;efarkas@sol28:~/CISC-3140/Test[efarkas@sol28 Test]$ cat artistNm[Kamee[KsSorted.txt
+
+000 Hours (with Justin Bieber)"
+Ali Gatie
+Ant Saunders
+Anuel AA
+Arcangel
+Ariana Grande
+Arizona Zervas
+Arizona Zervas
+Artist
+Ava Max
+Bad Bunny
+Bad Bunny
+benny blanco
+Billie Eilish
+Billie Eilish
+Billie Eilish
+Billie Eilish
+Billie Eilish
+Billie Eilish
+blackbear
+blackbear
+ Black Thought
+BROCKHAMPTON
+BTS
+BTS
+Camila Cabello
+Camila Cabello
+Camilo
+Chris Brown
+Conan Gray
+DaBaby
+DaBaby
+DaBaby
+DaBaby
+Daddy Yankee
+Daddy Yankee
+Dalex
+Dalex
+ Dalex
+Dean Lewis
+Dimelo Flow
+DJ Snake
+Doja Cat
+Dominic Fike
+Don Toliver
+Drake
+Dua Lipa
+Ed Sheeran
+Ed Sheeran
+Ed Sheeran
+Ed Sheeran
+Ed Sheeran
+Ellie Goulding
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Eminem
+Future
+Gambi
+Halsey
+Halsey
+Halsey
+Halsey
+Harry Styles
+Harry Styles
+Harry Styles
+Harry Styles
+Henrique & Juliano
+Imagine Dragons
+JACKBOYS
+James Arthur
+J Balvin
+J Balvin
+J Balvin
+J Balvin
+J. Cole
+Jhay Cortez
+Jonas Brothers
+Jonas Brothers
+Jonas Brothers
+JP Saxe
+Juice WRLD
+Juice WRLD
+Juice WRLD
+Juju
+Justin Bieber
+KAROL G
+Khalid
+Kina
+Kina
+Kygo
+Lady Gaga
+Lauv
+Lauv
+Lewis Capaldi
+Lewis Capaldi
+Lewis Capaldi
+Lil Baby
+Lil Baby
+Lil Nas X
+Lil Tecca
+Lil Uzi Vert
+Lizzo
+Lizzo
+Lunay
+Lunay
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Mac Miller
+Maes
+Maroon 5
+Maroon 5
+Marshmello
+Matthew Wilder
+MEDUZA
+MEDUZA
+Mustard
+ next"
+Nicky Jam
+Nicky Jam
+Noah Cyrus
+Olivia Rodrigo
+Panic! At The Disco
+Piso 21
+Post Malone
+Post Malone
+Post Malone
+Post Malone
+Post Malone
+Post Malone
+ Pt. II"
+Queen
+Rauw Alejandro
+Red Velvet
+Regard
+Reik
+Rich Music LTD
+Rich Music LTD
+Riton
+Roddy Ricch
+Roddy Ricch
+ROSALÍA
+ Royce Da 5'9"" & Joell Ortiz)"
+SAINt JHN
+Sam Smith
+Sam Smith
+Sech
+Sech
+Selena Gomez
+Selena Gomez
+Selena Gomez
+SHAED
+Shakira
+Shawn Mendes
+Shawn Mendes
+Stormzy
+Surfaces
+Tainy
+The Black Eyed Peas
+The Weeknd
+The Weeknd
+Thiaguinho MT
+Tones and I
+Tones and I
+Travis Scott
+Travis Scott
+Travis Scott
+Travis Scott
+Trevor Daniel
+ Tu x Mi"
+Tyga
+Ufo361
+XXXTENTACION
+XXXTENTACION
+XXXTENTACION
+Y2K
+YNW Melly
+YNW Melly
+Young Thug
+]0;efarkas@sol28:~/CISC-3140/Test[efarkas@sol28 Test]$ exit
+exit
+
+Script done on Sun 27 Sep 2020 12:32:36 AM EDT

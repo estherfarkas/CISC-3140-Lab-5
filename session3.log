@@ -1,0 +1,15 @@
+Script started on Sat Sep 26 23:30:55 2020
+[?1034hbash-3.2$ scp Users.[K/estherfarkas/Desktp[Kop/Sp[K[KspotifyCHa[K[Khart.csv efarkas@146.245.252.28:/users1/st/efarkas/CIA[Ks[KSC-3140/Test/
+Access to Brooklyn College computers is restricted to authorized users
+        and approved educational and research purposes, only.
+efarkas@146.245.252.28's password: 
+Users/estherfarkas/Desktop/spotifyChart.csv: No such file or directory
+bash-3.2$ scp /Users/estherfarkas/Desktop/spotifyChart.csv efarkas@146.245.252.28:/users[K1[Ks1/st/efarkas/CISC-3140/TEst[K[K[Kest/
+Access to Brooklyn College computers is restricted to authorized users
+        and approved educational and research purposes, only.
+efarkas@146.245.252.28's password: 
+spotifyChart.csv                                                                                                                                                            0%    0     0.0KB/s   --:-- ETAspotifyChart.csv                                                                                                                                                          100%   19KB 218.9KB/s   00:00    
+bash-3.2$ exit
+exit
+
+Script done on Sat Sep 26 23:33:18 2020
